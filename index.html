@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trash Think</title>
+  </head>
+  <style>
+    body {
+      background-color: aqua;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-grow: 3;
+      margin-top: 250px;
+    }
+
+    .button {
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+    .box1 {
+      background-color: white;
+      color: black;
+      border: 2px solid #4caf50;
+    }
+
+    .box1:hover {
+      background-color: #4caf50;
+      color: white;
+    }
+
+    .box2 {
+      background-color: white;
+      color: black;
+      border: 2px solid #f2ff00;
+    }
+
+    .box2:hover {
+      background-color: #f2ff00;
+      color: white;
+    }
+
+    .box3 {
+      background-color: white;
+      color: black;
+      border: 2px solid #ff0000;
+    }
+
+    .box3:hover {
+      background-color: #ff0000;
+      color: white;
+    }
+
+    .box4 {
+      background-color: white;
+      color: black;
+      border: 2px solid #6c6c6c;
+    }
+
+    .box4:hover {
+      background-color: #6c6c6c;
+      color: white;
+    }
+
+    @media (max-width: 800px) {
+      .flex-container {
+        flex-direction: column;
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 3px;
+      color: black;
+    }
+  </style>
+  <body>
+    <div class="flex-container">
+      <button class="button box1">Hijau</button>
+      <button class="button box2">Kuning</button>
+      <button class="button box3">Merah</button>
+      <button class="button box4">Limbah B3</button>
+    </div>
+
+    <footer>
+      <p>
+        Author: Rifki and Team<br />
+        &copy Project Trash Think
+      </p>
+    </footer>
+  </body>
+</html>
